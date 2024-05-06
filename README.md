@@ -100,3 +100,19 @@ Strategies:
 - V2: https://hummingbot.org/strategies/
 - Scripts: https://hummingbot.org/scripts/
 
+### Example: Pure Market Making Strategy 
+
+To deploy a pure market making strategy on Cube, 
+```
+>>> Create
+What is your market making strategy >>> pure_market_makng 
+Enter your maker spot connector >>> cube 
+Enter the token pair you woudl like ot trade on cube (e.g. SOL-USDC) >>> SOL-USDC
+How far away from the mid price do you want to place the first bid order? (Enter 1 to indicate 1%) >>> .1
+How far away from the mid price do you want to place the first bid order? (Enter 1 to indicate 1%) >>> .1
+How far away from the mid price do you want to place the first ask order? (Enter 1 to indicate 1%) >>> .1
+How often do you want to cancel and replace bids and asks (in seconds)? >>> 10 
+What is the amount of SOL per order? >>> 5
+Enter a new file name for your configuration >>> conf_pure_mm_1.yml
+```
+Your strategy has been created. To start, simply run: ```start```
