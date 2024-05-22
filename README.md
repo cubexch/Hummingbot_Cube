@@ -10,7 +10,7 @@ Hummingbot uses [Docker Compose](https://docs.docker.com/compose/), a tool for d
 
 The recommended way to get Docker Compose is to install [Docker Desktop](https://www.docker.com/products/docker-desktop/), which includes Docker Compose along with Docker Engine and Docker CLI which are Compose prerequisites.
 
-After installing Docker Desktop, verify that Docker Compose is installed correctly by checking the version:
+After installing Docker Desktop, through terminal verify that Docker Compose is installed correctly by checking the version:
 ```
 docker compose version
 ```
